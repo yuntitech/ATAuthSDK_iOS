@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/yuntitech/ATAuthSDK_iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
-
+  
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.resources           = 'ATAuthSDK_iOS/ATAuthSDK.framework/ATAuthSDK.bundle'
   s.vendored_frameworks = 'ATAuthSDK_iOS/ATAuthSDK.framework','ATAuthSDK_iOS/YTXMonitor.framework','ATAuthSDK_iOS/YTXOperators.framework'
 end

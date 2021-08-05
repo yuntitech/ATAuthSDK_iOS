@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "11.0"
   },
+  "static_framework": true,
   "resources": "ATAuthSDK_iOS/ATAuthSDK.framework/ATAuthSDK.bundle",
   "vendored_frameworks": [
     "ATAuthSDK_iOS/ATAuthSDK.framework",
