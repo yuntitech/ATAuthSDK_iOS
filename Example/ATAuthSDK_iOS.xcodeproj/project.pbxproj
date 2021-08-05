@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				868AD1865B293D4811314BEA /* [CP] Embed Pods Frameworks */,
+				3B6427B5744365AD5991B047 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,22 +298,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		868AD1865B293D4811314BEA /* [CP] Embed Pods Frameworks */ = {
+		3B6427B5744365AD5991B047 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ATAuthSDK_iOS_Example/Pods-ATAuthSDK_iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ATAuthSDK_iOS/ATAuthSDK_iOS.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ATAuthSDK_iOS_Example/Pods-ATAuthSDK_iOS_Example-resources.sh",
+				"${PODS_ROOT}/../../ATAuthSDK_iOS/ATAuthSDK.framework/ATAuthSDK.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATAuthSDK_iOS.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ATAuthSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATAuthSDK_iOS_Example/Pods-ATAuthSDK_iOS_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATAuthSDK_iOS_Example/Pods-ATAuthSDK_iOS_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B41CC6BAFA0434761B5F60F3 /* [CP] Check Pods Manifest.lock */ = {

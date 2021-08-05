@@ -1,22 +1,27 @@
 {
   "name": "ATAuthSDK_iOS",
   "version": "0.1.0",
-  "summary": "A short description of ATAuthSDK_iOS.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/LeeJunhui/ATAuthSDK_iOS",
+  "summary": "The iOS ATAuthSDK",
+  "description": "The iOS ATAuthSDK for YT.",
+  "homepage": "https://github.com/yuntitech/ATAuthSDK_iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "LeeJunhui": "84416097@qq.com"
+    "cenfeng": "leejunhui2015@gmail.com"
   },
   "source": {
-    "git": "https://github.com/LeeJunhui/ATAuthSDK_iOS.git",
+    "git": "https://github.com/yuntitech/ATAuthSDK_iOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "ATAuthSDK_iOS/Classes/**/*"
+  "resources": "ATAuthSDK_iOS/ATAuthSDK.framework/ATAuthSDK.bundle",
+  "vendored_frameworks": [
+    "ATAuthSDK_iOS/ATAuthSDK.framework",
+    "ATAuthSDK_iOS/YTXMonitor.framework",
+    "ATAuthSDK_iOS/YTXOperators.framework"
+  ]
 }

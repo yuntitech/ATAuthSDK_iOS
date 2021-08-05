@@ -7,7 +7,7 @@
 //
 
 #import "YTViewController.h"
-
+#import <ATAuthSDK/ATAuthSDK.h>
 @interface YTViewController ()
 
 @end
@@ -17,13 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    /**
+     初始化 SDK
+     */
+//    [[TXCommonHandler sharedInstance] setAuthSDKInfo:@"" complete:^(NSDictionary * _Nonnull resultDic) {
+//
+//    }];
 }
 
 @end
