@@ -22,7 +22,7 @@ pod 'ATAuthSDK_iOS'
 
 ## Author
 
-LeeJunhui, 84416097@qq.com
+cenfeng, leejunhui2015@gmail.com
 
 ## License
 

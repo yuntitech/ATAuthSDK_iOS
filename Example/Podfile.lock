@@ -1,0 +1,16 @@
+PODS:
+  - ATAuthSDK_iOS (0.1.0)
+
+DEPENDENCIES:
+  - ATAuthSDK_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  ATAuthSDK_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATAuthSDK_iOS: dadf95a2c2fdb898d8ec54c8e242114a426ba8b9
+
+PODFILE CHECKSUM: f2dc8cb37f35a8bfbedd9ba821cf4158a89b7a04
+
+COCOAPODS: 1.10.1

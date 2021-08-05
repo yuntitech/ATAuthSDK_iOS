@@ -1,0 +1,6 @@
+framework module ATAuthSDK_iOS {
+  umbrella header "ATAuthSDK_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
